@@ -25,7 +25,7 @@ function nextVocabulary(){
 }
 
 function check(){
-if(dictionary[germanText.value] == randomGermanWord) {
+if(germanText.value == randomGermanWord) {
     text.innerHTML = "Richtig!!";
 } else {
     text.innerHTML = "Falsch!!";
