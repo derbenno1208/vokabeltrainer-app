@@ -30,5 +30,5 @@ if(germanText.value == randomGermanWord) {
 } else {
     text.innerHTML = "Falsch!!";
 }
-
+nextVocabulary();
 }
